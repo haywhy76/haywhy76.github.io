@@ -1,0 +1,118 @@
+
+<% include ../partials/header %>
+          <div class="container">
+              <p class="jobpageheading">ALL LISTINGS</p>
+             
+            <div class="row">
+                  <div id="navigation" class="col-md-3 d1 ui segment">
+                    <h3 class="design">Navigation</h3>
+                    <h4 class="sort"><a href="/corperjobs">Sort By PPA Listings</a></h4>
+                    <h4 class="sort"><a href="/internjobs">Sort by Siwes Listings</a></h4>
+                    <hr class="hrline">
+                    <div id="pixlee_container"></div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'LGcaZ4JlwxOnRbbxXA_m'});Pixlee.addSimpleWidget({widgetId:'23719'});};</script>
+          <script src="//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
+                    <hr class="hrline">
+                    <h3 class="design">Like Our Facebook Page</h3>
+                    <div class="fb-page" data-href="https://www.facebook.com/servitng/" 
+                    data-tabs="timeline" data-width="500" 
+                    data-height="70" 
+                    data-small-header="false" 
+                    data-adapt-container-width="true" 
+                    data-hide-cover="false" 
+                    data-show-facepile="true"><blockquote cite="https://www.facebook.com/servitng/" 
+                    class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/servitng/">Servit</a></blockquote>
+                  </div>
+                  <hr class="hrline">
+                    <h3 class="design">Twitter Feed</h3>
+                    <a class="twitter-timeline" height="440px" href="https://twitter.com/servit_ng?ref_src=twsrc%5Etfw">Tweets by servit_ng</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                     
+                  </div>
+        
+                 <div class="col-md-6  ">
+                  <p class="jobpagesubheading">
+                   <p class="jobpagesubheading1"><a href="/corperjobs">Sort By PPA Listings</a></p>
+                   <p class="jobpagesubheading2"><a href="/internjobs">Sort by Siwes Listings</a></p>
+                   </p>
+                   <p class="explore">Explore Our Listings</p>
+                    <% internjobs.forEach(function(internjob){ %>
+
+                      <div id="" class="ui piled very padded segment">
+                        <h5><a class="header" href="/internjobs/<%=internjob._id%>"><i class="fa fa-university" aria-hidden="true"></i> Institution: <%=internjob.company%> </a></h5>
+                         <h5 class="location"><span>  <i class="fa fa-map-marker" aria-hidden="true"></i> Location: <%=internjob.location%>  </span></h5>
+                          <h5 class="location"> <span><i class="fa fa-users" aria-hidden="true"></i> Position: Intern</span></h5>
+                          <h5 class="locationred"><span><i class="fa fa-calendar"></i> Created on : <%= internjob.created.toDateString() %></span></h5>
+                          <p><a href="/internjobs/<%=internjob._id%>"><button class="ui  labeled icon green button"><i class="right arrow icon"></i>More Details</button></a></p>
+                      </div>  
+                     <% }); %>    
+                  
+                    <% corperjobs.forEach(function(corperjob){ %>
+
+                      <div id=""class="ui piled very padded segment">
+                        <p class="corperposts">
+                        <h5><a class="header" href="/corperjobs/<%=corperjob._id%>"><i class="fa fa-university" aria-hidden="true"></i> Institution: <%=corperjob.company%> </a></h5>
+                         <h5 class="location"><span><i class="fa fa-map-marker" aria-hidden="true"></i> Location: <%=corperjob.location%>  </span></h5>
+                          <h5 class="location"> <span><i class="fa fa-users" aria-hidden="true"></i> Position: Corp Member</span></h5>
+                          <!-- <p class="locationred"><span>Created on : <%= corperjob.created.toDateString() %></span></p> -->
+                          
+                         
+                            <p><a href="/corperjobs/<%=corperjob._id%>"><button class="ui  labeled icon green button"><i class="right arrow icon"></i>More Details</button></a></p>
+                          </p>
+                          </div>  
+                     <% }); %>  
+                  </div>
+
+            <div id="premium" class="col-md-3 ui segment" >
+              
+                <div >
+                    <h3 class="us">Premium Listings</h3>
+                    <p class="premiumdescription">With premium, there is 100% guarantee you get an IT Placement or NYSC PPA.</p>
+                  </div>  
+             
+
+              <% premiumjobs.forEach(function(premiumjob){ %>
+                <div id="" class="showpremiumjobonhomepage">
+                  <h5 ><a class="header" href="/premiumjobs/<%=premiumjob._id%>"><i class="fa fa-external-link" aria-hidden="true"></i> Premium Listing at <%=premiumjob.company%> </a></h5>
+                          
+                       
+                </div>  
+               <% }); %>  
+               <p class="createlisting"><a href="/premiumjobs">- View All -</a></p>
+               <hr class="hrline">
+               <h3 class="design">Newsletter</h3>
+                <p class="subsciptiontext">Would you like to get an email notification for new listings?</p>
+
+                <form id="subscriptionform" class="ui form form" action="/subscribe" method="POST"> 
+                <div class="field">
+                    <p class="subscriptionforminput"><input type="text" name="subscriberemail" placeholder="Enter Your Email Address" required></p>
+          
+                    <p class="subscribebutton"><button class="ui green button">Subscribe</button></p>
+                  </div>
+                </form>
+                <hr class="hrline">
+                <h3 class="design">Connect with us </h3>
+                <p class="social">
+                  <a href="https://www.fb.com/servitng" target="_blank"> <img src="/images/facebook.jpg" height="32" width="32"></a>
+                  <a href="https://instagram.com/servit.ng" target="_blank"> <img src="/images/instagram.jpg" height="32" width="32"></a>
+                  <a href="https://twitter.com/servitng" target="_blank"><img src="/images/twitter.jpg" height="32" width="32"></a>
+                  <a href="mailto:hello@servit.ng" target="_blank"><img src="/images/mail.png" height="32" width="32"></a>
+                </p>
+             
+                 
+            </div>        
+
+            </div>
+        
+          </div>
+        
+        
+<br>
+<br>
+<br>
+<br>
+<br>
+<% include ../partials/footer %>
+
+
+
+
+

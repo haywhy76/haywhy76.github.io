@@ -1,0 +1,1526 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background-color: rgb(245, 245, 245);
+    
+}
+
+.navbar-brand{
+    margin-top:-15px;
+}
+
+a{
+    color: #4A724E;
+}
+
+
+.cone{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.coneone{
+   text-align:center;
+}
+
+  /* HOMEPAGE */
+
+.testimonialdescription{
+    font-family: 'Cantarell', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    
+}
+.testimonialauthor{
+    font-family: 'Cantarell', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #4A724E;
+    font-weight: bold;
+    text-align:center;
+    
+}
+  .ac>.ac-q{
+    color: #4A724E;
+  }
+  .mobiledescription{
+    font-size:50px; 
+    color:#4A724E;
+}
+
+.testimonials{
+    text-align:center;
+   
+}
+
+.testimonialdescription{
+    font-size: 17px;
+}
+
+#testimonial1{
+    margin-left:50px;
+    width:30%;
+    
+}
+
+.testimonialdescription1{
+    text-align:center;
+    font-family: 'Cantarell', sans-serif;
+    color:#4A724E;
+    margin-top:-40px;
+    font-size:20px;
+}
+
+#testimonial2{
+    margin-left:30px;
+    width:30%
+}
+.testimonial2image{
+    margin-top: 50px;
+}
+.ptestimonial2image{
+    text-align:center;
+}
+#testimonial3{
+    margin-left:30px;
+    width:30%
+}
+
+.homepageweconnect{
+    padding-top:50px;
+   
+}
+
+.homepagebuttons{
+   
+    font-weight:bold;
+}
+#typedtext{
+    font-size:50px;   
+}
+
+img{
+    border-radius:25px;
+}
+a{
+    text-decoration:none;
+}
+
+.itbutton {
+    background: #404040;
+    color: #ffffff !important;
+    font-family: 'Cantarell', sans-serif;
+    }
+.itbutton:hover{
+    background: #404040;
+    color: #ffffff !important;
+}
+.nyscbutton{
+    background: #404040;
+    color: #ffffff !important;
+    font-family: 'Cantarell', sans-serif;
+   
+}
+.nyscbutton:hover{
+    background: #404040;
+    color: #ffffff !important;
+}
+.getstartedbutton{
+    margin-top:10px;
+    
+    background: #404040;
+    color: #ffffff !important;
+    font-family: 'Cantarell', sans-serif;
+}
+
+.getstartedbutton:hover{
+    background: #404040;
+    color: #ffffff !important;
+}
+.movegetstartedbutton{
+    text-align:center;
+}
+.logo{
+    color: #404040;
+}
+
+.footer:before{
+
+}
+.footer {
+    color: #404040;
+    font-size:16px;
+    font-family: 'Cantarell', sans-serif;
+    font-weight:bold;
+    text-align:center;
+    padding-bottom:20px;
+}
+
+.header li a{
+    color: #404040;
+    font-size:18px;
+    font-family: 'Cantarell', sans-serif;
+    font-weight:bold;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #4A724E;
+}
+.navbar-brand{
+    color: #404040;
+    font-size:18px;
+    font-family: 'Cantarell', sans-serif;
+    font-weight:bold;
+}
+.navbar-default .navbar-brand{
+    color: #4A724E;
+}
+
+.aboutus{
+    margin-top:100px;
+    font-family: 'Cantarell', sans-serif;
+}
+
+.aboutusheading{
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    text-align:center;
+    color:#4A724E;
+}
+
+.aboutusheading:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 20%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #4A724E ; /* This creates the border. Replace black with whatever color you want. */
+}
+
+
+.faqheading{
+    text-align:center;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    margin-bottom:50px;
+    color:#4A724E;
+    
+}
+
+.faqheading:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 20%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #4A724E ; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.faqheadingt{
+    text-align:center;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    margin-bottom:50px;
+    color:#4A724E;
+    
+}
+
+.faqheadingt:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 5%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #4A724E ; /* This creates the border. Replace black with whatever color you want. */
+}
+.contactus{
+    margin-top:100px;
+    font-family: 'Cantarell', sans-serif;
+}
+.contactusheading{
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    text-align:center;
+    color:#4A724E;
+}
+
+.contactusheading:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 6%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #4A724E ; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.design:after{
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 6%; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #4A724E ; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.us{
+    text-align:center;
+    font-weight: bold;
+    padding: 0px 0px 10px 0;
+    color: #000000;
+}
+
+.us:after{
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 6%; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #4A724E; ; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.profile{
+    text-align:center;
+    font-weight: bold;
+    padding: 0px 0px 10px 0;
+    color: #000000;
+    font-size:18px;
+}
+
+.profile:after{
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 6%; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #4A724E; ; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.usn{
+    text-align:center;
+    font-weight: bold;
+    padding: 0px 0px 10px 0;
+    color: #ffffff;
+}
+
+.n:after{
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 6%; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #4A724E; ; /* This creates the border. Replace black with whatever color you want. */
+}
+.premiumdescription{
+    text-align:center;
+    font-family: 'Cantarell', sans-serif;
+    color: #000000;
+    
+   
+    
+    
+}
+.viewfree{
+    text-align:center;
+}
+.getplacement{
+    font-family: 'Cantarell', sans-serif;
+    color: #4183C4;
+    font-size:18px;
+}
+/* END OF LANDING PAGE */
+
+
+/* REGISTER AND LOGIN PAGES */
+
+
+.registerbox{
+  
+  margin-top:100px;
+    
+}
+
+.registerboxheadingtwo{
+    text-align:center;
+    margin-bottom:50px;
+    font-family: 'Cantarell', sans-serif;
+    font-size:18px;
+    font-weight:bold;
+    
+}
+
+.registerboxheading{
+    text-align:center;
+    margin-bottom:50px;
+    font-family: 'Cantarell', sans-serif;
+    font-size:18px;
+    font-weight:bold;
+    color: #4A724E;
+}
+
+.registerboxheading:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 20%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #4A724E; ; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.registersubmitbutton {
+    margin-top:50px;
+    
+    background: #404040;
+    color: #ffffff !important;
+    font-family: 'Cantarell', sans-serif;
+    }
+    
+.registersubmitbutton:hover{
+    background: #404040;
+    color: #ffffff !important;
+}
+
+.undersubmitbutton{
+    font-family: 'Cantarell', sans-serif;
+    font-size:18px;
+}
+
+.example{
+    width:55%;
+    
+}
+
+.pexample{
+    text-align: center;
+}
+.field{
+    
+    text-align:center;
+    padding-right:100px;
+    padding-left:100px;
+}
+
+.registerform{
+    text-align:center;
+}
+
+.registerpageimage{
+    margin-top:60px;
+}
+
+
+/* END OF REGISTER PAGE */
+
+/* LOGIN PAGE */
+.loginbox{
+    margin-top:100px; 
+  }
+  
+.loginboxheading{
+      text-align:center;
+      margin-bottom:50px;
+      font-family: 'Cantarell', sans-serif;
+      font-size:18px;
+      font-weight:bold;
+      color: #4A724E;
+  }
+  
+.loginboxheading:after {
+    
+      content: ""; /* This is necessary for the pseudo element to work. */ 
+      display: block; /* This will put the pseudo element on its own line. */
+      margin: 0 auto; /* This will center the border. */
+      width: 20%; /* Change this to whatever width you want. */
+      padding-top: 20px; /* This creates some space between the element and the border. */
+      border-bottom: 1px solid #4A724E; ; /* This creates the border. Replace black with whatever color you want. */
+  }
+  
+.loginsubmitbutton {
+      margin-top:50px;
+      
+      background: #404040;
+      color: #ffffff !important;
+      font-family: 'Cantarell', sans-serif;
+      }
+      
+.loginsubmitbutton:hover{
+      background: #404040;
+      color: #ffffff !important;
+  }
+  
+.loginform{
+      text-align:center;
+  }
+  
+.loginpageimage{
+      margin-top:60px;
+  }
+
+/* END OF LOGIN PAGE */
+
+/* MEMBERSHIP */
+
+.membershiprow{
+    margin-bottom:185px;
+}
+
+.membershipbuttons{
+    padding-right:37px;
+   text-align:center;
+}
+
+.corpmember{
+margin-top:20px;
+text-align:center;
+}
+
+.internpayment{
+    text-align:center;
+}
+
+.employerbutton{
+    
+    font-family: 'Cantarell', sans-serif;
+    background: #404040;
+}
+
+.employerbutton:hover{
+    margin-top:30px;
+    font-family: 'Cantarell', sans-serif;
+    background: #404040;
+}
+
+.corpmemberbutton{
+    font-family: 'Cantarell', sans-serif;
+    background: #404040;
+}
+
+.corpmemberbutton:hover{
+    font-family: 'Cantarell', sans-serif;
+    background: #404040;
+}
+/* END OF MEMBERSHIP */
+
+/* IT/CORPERS REGISTRATION */
+
+.completeregistrationheading{
+    font-family: 'Cantarell', sans-serif;
+    text-align:center;
+    margin-bottom: 50px;
+    margin-top:30px;
+    font-weight: bold;
+}
+.itcorperscompleteregbutton{
+    text-align:center;
+}
+
+/* END OF IT/CORPERS REGISTRATION */
+
+/*JOB OPENING*/
+
+.openingheader{
+    font-family: 'Cantarell', sans-serif;
+    text-align:center;
+    margin-bottom: 50px;
+    font-weight:bold;
+    color:#fff;
+    text-align:center;
+    font-weight:bold;
+    font-size:18px;
+    font-family: 'Cantarell', sans-serif;
+    
+    padding-top:50px;
+    padding-bottom:50px;
+    width:100%;
+}
+
+.openingheadern{
+    font-family: 'Cantarell', sans-serif;
+    text-align:center;
+    margin-bottom: 50px;
+    font-weight:bold;
+    color:#fff;
+    text-align:center;
+    font-weight:bold;
+    font-size:18px;
+    font-family: 'Cantarell', sans-serif;
+    padding-top:50px;
+    
+    width:100%;
+}
+.openingheadern:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 20%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #ffffff ; /* This creates the border. Replace black with whatever color you want. */
+}
+
+#newlistingcontainer{
+    background: #134E5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    border-radius: 35px;
+    margin-bottom: 200px;
+    margin-top:20px;
+}
+#newcorperlistingcontainer{
+    background: #134E5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    border-radius: 35px;
+    margin-bottom: 200px;
+    margin-top:20px;
+}
+#editlistingcontainer{
+    background: #134E5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    border-radius: 35px;
+    margin-bottom: 200px;
+    margin-top:20px;
+}
+
+.backbutton{
+    padding-top:20px;
+}
+.newform{
+    padding-bottom:-150px;
+}
+.pjobsubmitbutton{
+    text-align:center;
+   
+}
+.jobsubmitbutton {
+    margin-top:50px;
+    margin-bottom:250px;
+    background: #404040;
+    color: #ffffff !important;
+    font-family: 'Cantarell', sans-serif;
+    text-align: center;
+    }
+    
+.jobsubmitbutton:hover{
+    background: #404040;
+    color: #ffffff !important;
+}
+.jobsubmitbuttonn {
+    margin-top:50px;
+    margin-bottom:50px;
+    background: #404040;
+    color: #ffffff !important;
+    font-family: 'Cantarell', sans-serif;
+    text-align: center;
+    }
+    
+.jobsubmitbuttonn:hover{
+    background: #404040;
+    color: #ffffff !important;
+}
+.subscriptiontext{
+    font-family: 'Cantarell', sans-serif;
+    text-align:center;
+}
+
+.subscriptionforminput{
+    width:170px !important;
+    text-align:center;
+}
+#subscriptionform{
+margin-left:-60px;
+}
+
+/* END OF JOB OPENING */
+
+/* JOBS PAGE */
+
+
+#premium{
+    border-top-width: 3px;
+    border-top-style:solid;
+    border-top-color:#4A724E;
+    border-left-width: 1px;
+    border-left-style:solid;
+    border-left-color:#4A724E;
+    border-bottom-width: 1px;
+    border-bottom-style:solid;
+    border-bottom-color:#4A724E;
+    border-right-width: 1px;
+    border-right-style:solid;
+    border-right-color:#4A724E;
+}
+.showpremiumjobonhomepage:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 20%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #4A724E ; /* This creates the border. Replace black with whatever color you want. */
+}
+#navigation{
+    border-top-width: 3px;
+    border-top-style:solid;
+    border-top-color:#4A724E;
+    border-right-width: 1px;
+    border-right-style:solid;
+    border-right-color:#4A724E;
+    border-left-width: 1px;
+    border-left-style:solid;
+    border-left-color:#4A724E;
+    border-bottom-width: 1px;
+    border-bottom-style:solid;
+    border-bottom-color:#4A724E;
+    text-align:center;
+}
+.jobpageheading{
+    color:#fff;
+    text-align:center;
+    font-weight:bold;
+    font-size:18px;
+    font-family: 'Cantarell', sans-serif;
+    background: url("/images/headerback.jpg") ;
+    padding-top:50px;
+    padding-bottom:50px;
+   
+}
+.jobpageheading:after{
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 6%; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid  #fff; ; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.explore{
+    text-align:center;
+    font-weight:bold;
+    font-size:18px;
+    font-family: 'Cantarell', sans-serif;
+    margin-bottom:-30px;
+    letter-spacing: 3px;
+}
+
+.hrline{
+    border: 1px solid #4A724E;
+  border-radius: 5px;
+  width:100%;
+}
+
+.hrfooterline{
+    border: 1px solid #4A724E;
+    border-radius: 5px;
+    width:40%;
+}
+
+.jobtitle{
+    font-size:25px;
+    
+}
+
+.jobcreated{
+    font-family: 'Cantarell', sans-serif;
+    font-size:18px;
+    color: #4183C4;
+}
+
+.centershow{
+    text-align:center;
+}
+.showpagetitle{
+    text-align:center;
+    font-family: 'Cantarell', sans-serif;
+    font-size:20px;
+    padding-top:20px;
+    letter-spacing: 3px;
+}
+
+.showpagetitle:after{
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+      display: block; /* This will put the pseudo element on its own line. */
+      margin: 0 auto; /* This will center the border. */
+      width: 20%; /* Change this to whatever width you want. */
+      padding-top: 10px; /* This creates some space between the element and the border. */
+      margin-bottom: 50px;
+      border-bottom: 1px solid #4A724E ; /* This creates the border. Replace black with whatever color you want. */
+}
+/* END OF JOBS PAGE */
+
+/* EDIT JOB */
+
+.editjobheading{
+    margin-top:30px;
+    font-family: 'Cantarell', sans-serif;
+    text-align:center;
+    margin-bottom: 50px;
+    font-weight:bold;
+    color:#fff;
+    text-align:center;
+    font-weight:bold;
+    font-size:18px;
+    font-family: 'Cantarell', sans-serif;
+    padding-top:30px;
+    width:100%;
+}
+
+.editjobheading:after{
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+      display: block; /* This will put the pseudo element on its own line. */
+      margin: 0 auto; /* This will center the border. */
+      width: 20%; /* Change this to whatever width you want. */
+      padding-top: 10px; /* This creates some space between the element and the border. */
+      margin-bottom: 50px;
+      border-bottom: 1px solid #ffffff ; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.editbutton{
+text-align:center;
+padding-bottom: 20px;
+}
+
+.jobcompany{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 18px;
+}
+.jobtitle{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 18px;
+}                                                                                             
+.jobdescription{
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.joblocation{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 18px;
+}
+.content{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 18px;
+}
+
+/* END OF EDIT JOB */
+
+.locationheader{
+text-align: center;
+
+}
+
+.locationheadertwo{
+    width:40%;
+}
+
+.companypageheader{
+    font-family: 'Cantarell', sans-serif;
+}
+
+.wrappers{
+    background-color: red;
+     margin: 0 auto;
+}
+.wrap1{
+    background-color:#26BE00;
+    color:white;
+    font-family: 'Cantarell', sans-serif;
+    font-size:18px;
+    padding-top:10px;
+    padding-bottom:10px;
+    width:40%;
+    text-align:center;
+}
+
+.wrap2{
+    background-color:#41B883;
+    color:white;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 18px;
+    padding-top:10px;
+    padding-bottom:10px;
+    width:40%;
+    text-align:center;
+}
+
+.jobbutton{
+    margin-top:15px;
+    margin-bottom:15px;
+    font-size:12px;
+}
+
+.social{
+    text-align:center;
+}
+.subscribebutton{
+    margin-top:15px;
+    margin-bottom:15px;
+    font-size:12px;
+    padding-left:50px;
+    text-align:center;
+}
+.showpremiumjobonhomepage{
+    padding-top:20px;
+    text-align:center;
+}
+
+.logincontainer{
+    margin-bottom:105px;
+}
+.d1{
+    padding-right:10px;
+    height: 1000px;
+    font-size:22px;
+    
+}
+.d3{
+    
+    font-size:22px;
+    height: 500px;
+}
+.s1{
+    height: 500px;
+    font-size:22px;
+}
+.s3{
+    border-style: solid;
+    border-width:2px;
+    font-size:22px;
+}
+
+.show3{
+    border-style: solid;
+    border-width:2px;
+    font-size:22px;
+    margin-left:45px;
+    
+}
+.show2{
+    margin-right: 20px;
+}
+
+.design{
+    
+    text-align:center;
+    font-weight: bold;
+    padding: 0px 0px 10px 0;
+    color:#000000;
+    
+}
+
+.createlisting{
+    font-weight: bold;
+    text-align:center;
+    padding: 10px 0px 10px 0;
+    color:#000000
+}
+.navigation{
+    font-weight: bold;
+    
+}
+.navigation a{
+    text-decoration:none;
+    color: black;
+}
+#delete{
+   display: inline;
+  
+}
+
+
+.well{
+    padding-bottom:30px;
+}
+.move{
+    text-align:center;
+}
+
+.maplocation{
+    font-size:25px;
+}
+
+.location{
+    padding-left:3px;
+    color: #4A724E;
+    
+}
+
+.locationlocation{
+    padding-left:6px;
+    color: #4A724E;
+    
+}
+.jobcreated{
+    padding-left:6px;
+}
+.locationred{
+    color: #000000;
+    padding-left:3px;
+}
+
+.alltags{
+    font-weight: bold;
+    text-align:center;
+    padding: 185px 0px 10px 0;
+    
+}
+
+.moreinfo{
+    margin-bottom:10px;
+}
+
+.moreinfolinks{
+    margin-top: 30px;
+    font-size:20px;
+}
+
+.tags{
+    
+    font-size:26.875px;
+    font-family: 'Cantarell', sans-serif;
+}
+
+.tags:after{
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+      display: block; /* This will put the pseudo element on its own line. */
+      
+      width: 20%; /* Change this to whatever width you want. */
+      padding-top: 10px; /* This creates some space between the element and the border. */
+      margin-bottom: 50px;
+      border-bottom: 1px solid #4183C4 ; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.designtag{
+    text-align:center;
+    font-size:26.875px;
+    background-color:#f7df1e;
+    padding:10px 0px 10px 0px;
+    margin-right:600px;
+    margin-left:600px;
+    color: white;
+    
+}
+.constructiontag{
+    text-align:center;
+    font-size:26.875px;
+    background-color:#562765;
+    padding:10px 0px 10px 0px;
+    margin-right:600px;
+    margin-left:600px;
+    color: white;
+}
+.estimationtag{
+    text-align:center;
+    font-size:26.875px;
+    background-color:#000000;
+    padding:10px 0px 10px 0px;
+    margin-right:600px;
+    margin-left:600px;
+    color: white;
+}
+.bimtag{
+    text-align:center;
+    font-size:26.875px;
+    background-color:#222222;
+    padding:10px 0px 10px 0px;
+    margin-right:600px;
+    margin-left:600px;
+    color: white;
+}
+.consultancytag{
+    text-align:center;
+    font-size:26.875px;
+    background-color:#1E38BB;
+    padding:10px 0px 10px 0px;
+    margin-right:600px;
+    margin-left:600px;
+    color: white;
+}
+.contracttag{
+    text-align:center;
+    font-size:26.875px;
+    background-color:#2A2566;
+    padding:10px 0px 10px 0px;
+    margin-right:600px;
+    margin-left:600px;
+    color: white;
+}
+.feasibilitytag{
+    text-align:center;
+    font-size:26.875px;
+    background-color:#3d8836;
+    padding:10px 0px 10px 0px;
+    margin-right:600px;
+    margin-left:600px;
+    color: white;
+}
+
+.settingsbutton{
+    margin-bottom:30px;
+    background-color:#4183c4;
+    
+}
+
+.jumbotronkeylinks{
+    background-color:#ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#4183c4;
+    box-shadow: 7px 5px #4A724E;
+}
+
+.otherdetails{
+    border-left-style: solid;
+    border-color:#666666;
+    border-width: 2px;
+}
+
+.twitter{
+    padding-left:15px;
+}
+
+.instagram{
+    padding-left:15px;
+}
+
+.settingssummary{
+    padding-bottom: 20px;
+}
+
+.currentuser{
+    text-transform:capitalize;
+}
+
+
+
+.twittersvg{
+    max-width: 10%;
+  height: auto;
+}
+
+.instagramsvg{
+    max-width: 10%;
+  height: auto;
+}
+
+.fbsvg{
+    max-width: 10%;
+  height: auto;
+}
+
+.socialmedia{
+    display: inline-block;
+    
+    margin-top:30px;
+    
+}
+
+.twittersvg{
+    margin-left:20px;
+}
+
+.fbsvg{
+    margin-left:20px;
+}
+
+
+
+.signin{
+    text-align:center;
+}
+
+/* SEARCH BAR */
+
+.example {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchterm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+    text-align:center;
+  }
+  
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .mynavs{
+    float:right; 
+}
+
+.settingsheading{
+    text-align:center;
+}
+.settingsheading:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 20%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #4A724E ; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.sidenote{
+    text-align: justify;
+    color:#ffffff;
+    font-size: 1.09571429rem;
+}
+
+.showsidenote{
+    text-align: justify;
+    
+    font-size: 1.09571429rem;
+}
+  /* MediaQueries */
+
+@media screen and (max-width: 833px) {
+
+    .subscribebutton{
+       margin-left: 20px;
+        text-align:center;
+    }
+    .subscriptionforminput{
+        width:170px !important;
+        text-align:center;
+        margin-left: 20px;
+    }
+    .corperformfield{
+        width:200px !important;
+        margin-left: -45px;
+    }
+    .internformfield{
+        width:200px !important;
+        margin-left: -45px;
+    }
+   
+    .settingsformfield{
+        width:200px !important;
+       
+    }
+
+    #testimonial1, #testimonial2, #testimonial3{
+        width:80%;
+        margin-left:35px;
+    }
+    /* LANDING PAGE */
+
+    .homepageweconnect{
+        padding-top:0px;
+    }
+    .nyscbutton{
+        margin-top:10px;
+        margin-bottom:20px;
+    }
+
+    .homepageimage{
+        display:none;
+    }
+
+    .aboutus{
+        margin-top:50px;
+    }
+
+    .faq{
+        margin-top:50px;
+    }
+
+    .contactus{
+        margin-top:50px;
+    }
+
+    /* LOGIN PAGE */
+
+    .loginpageimage{
+        display:none;
+    }
+  
+   .loginbox{
+        margin-top:0px;
+    }
+
+    .logincontainer{
+        margin-bottom:40px;
+    }
+
+    .registercontainer{
+        margin-bottom:50px;
+    }
+
+    /* MEMBERSHIP PAGE */
+    .registerboxheading{
+        margin-top:0px;
+    }
+
+    .registerpageimage{
+        display:none;
+    }
+
+  /* LOGIN PAGE */
+
+    
+  .loginusername{
+    width:150px !important;
+    margin-left: -40px; 
+    
+}
+.loginpassword{
+    width:150px !important;
+    margin-left: -40px; 
+    
+}
+.registerusername{
+    width:150px !important;
+    margin-left: -40px; 
+    
+}
+.registeremail{
+    width:150px !important;
+    margin-left: -40px; 
+    
+}
+.registerpassword{
+    width:150px !important;
+    margin-left: -40px; 
+    
+}
+    .registerbox{
+        margin-top:0px;
+    }
+
+    .logincontainer{
+        margin-bottom:50px;
+    }
+
+    /* JOBS PAGE */
+
+    .d1{
+        display:none;
+    }
+
+   
+  }
+
+
+@media screen and (min-width: 520px) {
+
+    
+   
+   
+    .navbar-brand{
+        margin-top:-15px;
+    }
+    
+    .jobpagesubheading1{
+    display:none;
+}
+.jobpagesubheading2{
+    display:none;
+}
+.back{
+   display: none;
+}
+}
+
+@media screen and (min-width: 10px) and (max-width: 480px){
+  
+    .navbar-brand{
+        margin-top:-15px;
+    }
+
+   
+    .settingsformfield{
+        width:200px !important;
+        margin-left: -75px;
+    }
+    
+    
+    
+   
+
+    /* .corperformfield{
+        width:150px !important;
+        margin-left: -75px; 
+    }
+
+    .internformfield{
+        width:150px !important;
+        margin-left: -75px; 
+    } */
+
+    .aboutus{
+        margin-top:50px;
+        width:350px !important;
+        margin-left: -15px; 
+    }
+    .contactus{
+        width:350px !important;
+        margin-left: -15px; 
+    }
+    .faq{
+        width:350px !important;
+        margin-left: -15px; 
+    }
+
+    #homepageimage{
+        display:none;
+    }
+    .homepageimage{
+        display:none;
+    }
+    #typedtext{
+        display:none;
+    }
+
+    .mobiledescription{
+        font-size:40px; 
+        display:show;
+    }
+    .homepagebuttons{
+        padding-top: 0px;
+        
+    }
+    .employerbutton{
+        margin-top:30px;
+    }
+    .jobpagesubheading1{
+        display:show;
+        text-align:center;
+    }
+    .jobpagesubheading2{
+        display:show;
+        text-align:center;
+    }
+    .back{
+        text-align:center;
+    }
+
+   
+} 
+
+/* .spinner-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(245, 245, 245);;
+    z-index: 999999;
+    }
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    background-color: #4A724E;
+  
+    position: absolute;
+top: 48%;
+left: 48%;
+    -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+    animation: sk-rotateplane 1.2s infinite ease-in-out;
+  }
+  
+  @-webkit-keyframes sk-rotateplane {
+    0% { -webkit-transform: perspective(120px) }
+    50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+    100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+  }
+  
+  @keyframes sk-rotateplane {
+    0% { 
+      transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+      -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+    } 50% { 
+      transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+      -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+    } 100% { 
+      transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+      -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    }
+  } */
+  
+.sort{
+    font-weight:bold;
+}
+
+
+
+
+  .overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+
+ 
+  }

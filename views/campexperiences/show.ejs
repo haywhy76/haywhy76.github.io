@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Servit | <%=campexperience.title%></title>
+        <meta name='viewport' content='width=device-width' />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Cantarell&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+        <link rel="stylesheet"  href="/stylesheets/app.css">
+        <link rel="stylesheet"  href="/stylesheets/blog.css">
+        <link rel="stylesheet"  href="/stylesheets/app.scss">
+        <link rel="stylesheet"  href="/stylesheets/accordion.min.css">
+        <link rel="shortcut icon" href="/images/ico.png">
+    </head>
+    <body>
+        
+      <div class="container">
+        <nav class="navbar navbar-default ">
+          <div class="container-fluid">
+            
+             
+              <a class="navbar-brand" href="/"><img src="/images/logo.png"></a>
+
+              <div class="mynavs">
+                   <span style=" margin-top:-15px; color: #4A724E;font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+                </div>
+
+              <div id="myNav" class="overlay">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <div class="overlay-content">
+                      <% if(!currentUser){ %>
+                        <a href="nyscnews"> NYSC News </a>
+                        <a href="/campexperiences"> Camp Experiences </a>
+                        <a href="/#contactus"> Flatmates/Apartments </a>
+                        <a href="/register">Find your way to camp</a>
+                    <% }else{ %> 
+                      <p>Signed In As <%= currentUser.username %></p>
+                      <a href="/jobs"> <i class="fa fa-pencil"></i> View Listings</a>
+                      <a href="/keylinks"><i class="fa fa-key"></i> Keylinks </a>
+                      <a href="/logout"><i class="fa fa-sign-out"></i> Signout </a>
+                    <% } %>
+                  </div>
+                </div>
+                  
+          </div>
+        </nav>
+
+        <div class="container">
+          <% if (error && error.length > 0){%>
+            <div class="alert alert-danger" role="alert">
+             <%= error %>
+          </div>
+          <%}%>
+
+          <% if (success && success.length > 0){%>
+            <div class="alert alert-success" role="alert">
+               <%= success %>
+            </div>
+            <%}%>
+        </div>
+ 
+
+        
+ </div>
+
+ <div class="container">
+        <div class="row">
+          <div class="col-md-8 ">  
+            <h1 class="nyscnewsshowtitle"><%=campexperience.title%></h1>
+            <p class="nyscnewsshowdescription">Created on <%= campexperience.created.toDateString() %></p>
+            <p class="nyscnewsshowshare"></p>
+           <p class="showcampimagep"> <img class="showcampexpimg" src="<%= campexperience.image %>" ></p>
+                <p class="nyscnewsshowbody"><%=campexperience.body%></p>
+            
+                <p class="backbutton"><button class="ui green basic button"><a href="/campexperiences"><< Back</a></button></p>
+                <p class="followtheauthor">Follow the author: </p>
+                <a href="https://www.fb.com/<%=campexperience.campexperiencefb%>" target="_blank"> <img src="/images/facebook.jpg" height="32" width="32"></a>
+                <a href="https://www.instagram.com/<%=campexperience.campexperienceig%>" target="_blank"> <img src="/images/instagram.jpg" height="32" width="32"></a>
+                <a href="https://twitter.com/<%=campexperience.campexperiencetwitter%>" target="_blank"><img src="/images/twitter.jpg" height="32" width="32"></a>
+               
+                <div class="item">     
+                <br>
+                <br>
+                <hr>
+                <br>
+        
+               </p>
+                </div>
+                
+                <h1 class="nyscnewsshowothernews">Other Camp Experiences</h1>
+                <div>
+                <% campexperiences.forEach(function(campexperience){ %>
+                  <div class="">
+                  <!-- <div class="ui segment"> -->
+                    <p class="">
+                      <hr class="nyscnewsindexhrline">
+                      <h1 class="nyscnewsshowothernewsheading"><a class="" href="/campexperiences/<%=campexperience._id%>"> <%=campexperience.campexperiencetitle%> </a></h1>
+                    <p class="nyscnewsshowothernewsdescription"><span> <%= campexperience.created.toDateString() %></span></p>
+                    <span></span>
+                    <p><a href="/campexperiences/<%=campexperience._id%>"><button class="ui  labeled icon green button"><i class="right arrow icon"></i>Read More</button></a></p>
+                  </p>
+                    <!-- </div>   -->
+                      
+                    </div>
+                 <% }); %> 
+                </div>
+
+                <br>
+                
+
+                
+        </div>
+    
+            <div id="" class="col-md-1" >
+            </div>
+    
+            <div id="premiumtwo" class="col-md-3 ui segment" >
+              <h3 class="design">Get a PPA/IT Placement</h3>
+                <a href="/getstarted"><img src="/images/sidebanner.png"></a>
+                <h3 class="design">Like Our Facebook Page</h3>
+                <div class="fb-page" data-href="https://www.facebook.com/servitng/" 
+                data-tabs="timeline" data-width="500" 
+                data-height="70" 
+                data-small-header="false" 
+                data-adapt-container-width="true" 
+                data-hide-cover="false" 
+                data-show-facepile="true"><blockquote cite="https://www.facebook.com/servitng/" 
+                class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/servitng/">Servit</a></blockquote>
+              </div>
+    
+              <h3 class="design">Instagram Feed</h3>
+              <div id="pixlee_container"></div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'LGcaZ4JlwxOnRbbxXA_m'});Pixlee.addSimpleWidget({widgetId:'23719'});};</script>
+              <script src="//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
+                 <hr class="hrline">
+                 <h3 class="design">Newsletter</h3>
+                  <p class="subscriptiontext">Get contents delivered to your email</p>
+    
+                  <form id="subscriptionform" class="ui form form" action="/subscribe" method="POST"> 
+                  <div class="field">
+                      <p class="subscriptionforminput"><input type="text" name="subscribe" placeholder="Enter Your Email Address" required></p>
+            
+                      <p class="subscribebutton"><button class="ui green button">Subscribe</button></p>
+                    </div>
+                  </form>
+                  <hr class="hrline">
+                  <h3 class="design">Connect with us </h3>
+                  <p class="social">
+                    <a href="https://www.fb.com/servitng" target="_blank"> <img src="/images/facebook.jpg" height="32" width="32"></a>
+        <a href="https://instagram.com/servit.ng" target="_blank"> <img src="/images/instagram.jpg" height="32" width="32"></a>
+        <a href="https://twitter.com/servitng" target="_blank"><img src="/images/twitter.jpg" height="32" width="32"></a>
+        <a href="mailto:hello@servit.ng" target="_blank"><img src="/images/mail.png" height="32" width="32"></a>
+                  </p>
+               
+                   
+              </div> 
+        </div>
+        <hr class="hrfooterlinetwo">
+  <div class="container lastsegment">
+    <div class="row">
+        <div class="col-md-3 col-sm-12">
+            <h2>About Us</h2>
+            <p class="search">At <span class="servits">Servit</span>, we serve as link between undergraduates in search of an organisation
+               where they can undergo their industrial training and the companies.<br>
+              We also help make the tedious search of PPA for corps members (redeployed corps members especially)
+               easy by providing access to openings in several companies. </p>
+          </div>
+  
+        <div class="col-md-3 col-sm-12">
+            <h2 class="categories">Categories</h2>
+           <p> <a href="/nyscnews">NYSC News</a></p>
+           <p> <a href="/campexperiences">Camp Experiences</a></p>
+           <p> <a href="/roomates">Find a Roomie</a></p>
+          </div>
+          <div class="col-md-3 col-sm-12">
+              <h2 class="categories">Contact</h2>
+              <p><span class="phone">Phone:</span> 08023007357</p>
+              <p><span class="phone">Email:</span> ngservit@gmail.com</p>
+              <p><span class="phone">Address:</span> FCT, Abuja</p>
+             
+            </div>
+
+            <div class="col-md-3 col-sm-12">
+              <h2 class="categories">Social</h2>
+              <a href="https://www.fb.com/servitng" target="_blank"> <img src="/images/facebook.jpg" height="32" width="32"></a>
+              <a href="https://www.instagram.com/servit.ng/" target="_blank"> <img src="/images/instagram.jpg" height="32" width="32"></a>
+              <a href="https://twitter.com/servitng" target="_blank"><img src="/images/twitter.jpg" height="32" width="32"></a>
+              <a href="mailto:hello@servit.ng" target="_blank"><img src="/images/mail.png" height="32" width="32"></a>
+            </div>
+    </div>
+    </div>
+    </div>
+
+   
+ </body>
+ </html>
